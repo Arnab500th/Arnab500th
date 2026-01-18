@@ -3,10 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=arnab500th&label=Profile%20views&color=0e75b6&style=flat" alt="arnab500th" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=arnab500th" alt="arnab500th" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/arnab500th" target="blank"><img src="https://img.shields.io/twitter/follow/arnab500th?logo=twitter&style=for-the-badge" alt="arnab500th" /></a> </p>
-
 - 🔭 I’m currently working on [Data Science & Machine Learning projects using Python](https://github.com/Arnab500th)
 
 - 🌱 I’m currently learning **Machine Learning, Data Analysis, Flask, and core Python concepts Online courses & hands-on projects**
