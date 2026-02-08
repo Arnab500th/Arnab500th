@@ -11,7 +11,7 @@
 
 - 🤝 I’m looking for help with [Improving Machine Learning models and project structuring](https://github.com/Arnab500th)
 
-- 👨‍💻 All of my projects are available at [https://github.com/your-username]((https://github.com/Arnab500th))
+- 👨‍💻 All of my projects are available at [https://github.com/Arnab500th](https://github.com/Arnab500th)
 
 - 💬 Ask me about **Python, Pandas, NumPy, MatPlotlib, basic Machine Learning, Flask apps, Open-CV, MediaPipe**
 
