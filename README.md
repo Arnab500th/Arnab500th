@@ -17,8 +17,7 @@
 
 - 📫 How to reach me **arnabdatta2007@gmail.com**
 
-- 📄 Know about my experiences [Internship & academic projects (link coming soon)](Internship & academic projects (link coming soon))
-
+- 📄 Know about my experiences [**Posrtfolio**](https://portfolio-8ph.pages.dev/)
 - ⚡ Fun fact **I debug code better late at night than during the day 😄**
 
 <h3 align="left">Connect with me:</h3>
