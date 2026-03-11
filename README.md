@@ -94,4 +94,4 @@ Real-time AI surveillance pipeline — YOLOv8 + ByteTrack + 5-state machine + Ha
 </p>
 
 <p align="left">
-  📄 <a href="https://portfolio-8ph.p
+  [📄](https://portfolio-8ph.pages.dev/)
