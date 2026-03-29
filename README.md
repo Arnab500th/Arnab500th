@@ -7,6 +7,8 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=arnab500th&label=Profile+Views&color=7AA2F7&style=flat-square" alt="profile views" />
   &nbsp;
+  <img src="https://img.shields.io/github/stars/arnab500th?label=Stars&style=flat-square&color=7AA2F7&labelColor=1a1b27" alt="GitHub followers" />
+  &nbsp;
   <img src="https://img.shields.io/github/followers/arnab500th?label=Followers&style=flat-square&color=7AA2F7&labelColor=1a1b27" alt="GitHub followers" />
   &nbsp;
   <img src="https://img.shields.io/badge/Status-Open%20to%20Internships-4CAF50?style=flat-square&labelColor=1a1b27" alt="open to internships" />
