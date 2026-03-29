@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  [stats-theme](https://stats.pphat.top/stats?username=arnab500th&theme=night&avatar_mode=radar)
+  <img src="https://stats.pphat.top/stats?username=arnab500th&theme=night&avatar_mode=radar" alt="arnab500th-stats" />
 </p>
 
 ---
