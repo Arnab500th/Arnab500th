@@ -61,20 +61,9 @@ Real-time AI surveillance pipeline — YOLOv8 + ByteTrack + 5-state machine + Ha
 
 ### 📊 GitHub Stats
 
-<!-- 
-  STATS SETUP (one-time):
-  Create .github/workflows/grs.yml with the content in the collapsible below.
-  After the workflow runs, these static SVG paths will work permanently.
--->
 
 <p align="left">
-  <img src="./profile/top-langs.svg" alt="top langs" />
-</p>
-<p align="right">
-  <img src="./profile/stats.svg" alt="github stats" />
-</p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=arnab500th&theme=tokyo-night" />
+  <img src="profile-3d-contrib/profile-night-view.svg" alt="git-stats" />
 </p>
 
 
