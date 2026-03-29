@@ -130,44 +130,9 @@ After this runs once, the `./profile/stats.svg` and `./profile/top-langs.svg` pa
 ### 🐍 Contribution Snake
 
 <p align="center">
-  <img src="./output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="snake animation dark" />
-  <img src="./output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="snake animation light" />
+  <img src="https://raw.githubusercontent.com/arnab500th/arnab500th/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="snake animation dark" />
+  <img src="https://raw.githubusercontent.com/arnab500th/arnab500th/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="snake animation light" />
 </p>
-
-<details>
-<summary>⚙️ Fix snake not showing — check your workflow output path</summary>
-
-The snake SVGs must be committed to a branch called `output` in **this same repo** (`arnab500th/arnab500th`). Your `.github/workflows/snake.yml` should look like this:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: arnab500th
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-After saving, go to **Actions → Generate Snake → Run workflow** manually to trigger it. Once it runs, the `output` branch will be created and the SVGs will appear.
-
-</details>
 
 ---
 
