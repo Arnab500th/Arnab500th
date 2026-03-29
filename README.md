@@ -74,7 +74,7 @@ Real-time AI surveillance pipeline — YOLOv8 + ByteTrack + 5-state machine + Ha
   <img src="./profile/stats.svg" alt="github stats" />
 </p>
 <p align="center">
-  [Arnab's Activity graph](https://github-readme-activity-graph.vercel.app/graph?username=arnab500th&theme=tokyo-night)
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=arnab500th&theme=tokyo-night" />
 </p>
 
 
