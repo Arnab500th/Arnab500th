@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=100&color=7AA2F7&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Arnab+Datta+%F0%9F%91%8B;" alt="Typing SVG" />
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=12&pause=100&color=7AA2F7&center=true&vCenter=true&width=600&lines=First-year+CS+Student+%7C+Python+%7C+ML+%26+Computer+Vision+%7C+Building+things+that+work+in+the+real+world;" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=10&pause=100&color=7AA2F7&center=true&vCenter=true&width=600&lines=First-year+CS+Student+%7C+Python+%7C+ML+%26+Computer+Vision+%7C+Building+things+that+work+in+the+real+world;" alt="Typing SVG" />
 </p>
 
 <!-- Badge row -->
