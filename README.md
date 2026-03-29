@@ -61,30 +61,83 @@ Real-time AI surveillance pipeline — YOLOv8 + ByteTrack + 5-state machine + Ha
 
 ### 📊 GitHub Stats
 
+<!-- 
+  STATS SETUP (one-time):
+  Create .github/workflows/grs.yml with the content in the collapsible below.
+  After the workflow runs, these static SVG paths will work permanently.
+-->
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arnab500th&show_icons=true&locale=en&layout=compact&theme=tokyonight&cache_seconds=1800" alt="top langs" />
+  <img src="./profile/top-langs.svg" alt="top langs" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arnab500th&show_icons=true&locale=en&theme=tokyonight&cache_seconds=1800" alt="github stats" />
+  <img src="./profile/stats.svg" alt="github stats" />
 </p>
 <p align="center">
   <img src="https://nirzak-streak-stats.vercel.app/?user=arnab500th&theme=tokyonight" alt="streak stats" />
 </p>
+
+<details>
+<summary>⚙️ One-time setup: GitHub Actions for stats cards</summary>
+
+Create `.github/workflows/grs.yml` in this repo:
+
+```yaml
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=arnab500th&show_icons=true&theme=tokyonight
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top langs card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=arnab500th&layout=compact&theme=tokyonight
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README cards" || exit 0
+          git push
+```
+
+After this runs once, the `./profile/stats.svg` and `./profile/top-langs.svg` paths in the README will work reliably forever.
+
+</details>
 
 ---
 
 ### 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/arnab500th/arnab500th/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+  <img src="./output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="snake animation dark" />
+  <img src="./output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="snake animation light" />
 </p>
 
-> **Note:** The snake animation requires a GitHub Actions workflow. See setup instructions below.
-
 <details>
-<summary>⚙️ Set up the contribution snake</summary>
+<summary>⚙️ Fix snake not showing — check your workflow output path</summary>
 
-Create `.github/workflows/snake.yml` in this repo:
+The snake SVGs must be committed to a branch called `output` in **this same repo** (`arnab500th/arnab500th`). Your `.github/workflows/snake.yml` should look like this:
 
 ```yaml
 name: Generate Snake
@@ -100,7 +153,7 @@ jobs:
     steps:
       - uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: arnab500th
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
@@ -111,6 +164,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
+
+After saving, go to **Actions → Generate Snake → Run workflow** manually to trigger it. Once it runs, the `output` branch will be created and the SVGs will appear.
 
 </details>
 
