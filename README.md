@@ -41,8 +41,8 @@ Real-time AI surveillance pipeline — YOLOv8 + ByteTrack + 5-state machine + Ha
     <td align="center" width="80"><a href="https://scikit-learn.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="40" height="40"/></a><br/><sub>scikit-learn</sub></td>
     <td align="center" width="80"><a href="https://pandas.pydata.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" width="40" height="40"/></a><br/><sub>Pandas</sub></td>
     <td align="center" width="80"><img src="https://numpy.org/images/logo.svg" width="40" height="40"/><br/><sub>NumPy</sub></td>
-    <td align="center" width="80"><a href="https://flask.palletsprojects.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" width="40" height="40"/></a><br/><sub>Flask</sub></td>
-    <td align="center" width="80"><a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://icon.icepanel.io/Technology/png-shadow-512/Flask.png" width="40" height="40"/></a><br/><sub>FastAPI</sub></td>
+    <td align="center" width="80"><a href="https://flask.palletsprojects.com/" target="_blank"><img src="https://icon.icepanel.io/Technology/png-shadow-512/Flask.png" width="40" height="40"/></a><br/><sub>Flask</sub></td>
+    <td align="center" width="80"><a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://icon.icepanel.io/Technology/svg/FastAPI.svg" width="40" height="40"/></a><br/><sub>FastAPI</sub></td>
   </tr>
   <tr>
     <td align="center" width="80"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="40" height="40"/><br/><sub>SQLite</sub></td>
