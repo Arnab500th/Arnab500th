@@ -67,63 +67,16 @@ Real-time AI surveillance pipeline — YOLOv8 + ByteTrack + 5-state machine + Ha
   After the workflow runs, these static SVG paths will work permanently.
 -->
 
-<p align="center">
+<p align="left">
   <img src="./profile/top-langs.svg" alt="top langs" />
 </p>
-<p align="center">
+<p align="right">
   <img src="./profile/stats.svg" alt="github stats" />
 </p>
 <p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=arnab500th&theme=tokyonight" alt="streak stats" />
+  [Arnab's Activity graph](https://github-readme-activity-graph.vercel.app/graph?username=arnab500th&theme=tokyo-night)
 </p>
 
-<details>
-<summary>⚙️ One-time setup: GitHub Actions for stats cards</summary>
-
-Create `.github/workflows/grs.yml` in this repo:
-
-```yaml
-name: Update README cards
-
-on:
-  schedule:
-    - cron: "0 3 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=arnab500th&show_icons=true&theme=tokyonight
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate top langs card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=arnab500th&layout=compact&theme=tokyonight
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit cards
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
-          git add profile/*.svg
-          git commit -m "Update README cards" || exit 0
-          git push
-```
-
-After this runs once, the `./profile/stats.svg` and `./profile/top-langs.svg` paths in the README will work reliably forever.
-
-</details>
 
 ---
 
