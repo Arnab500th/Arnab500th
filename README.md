@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="480" alt="coding gif"/>
+  ![stats-theme](https://stats.pphat.top/stats?username=arnab500th&theme=night&avatar_mode=radar)
 </p>
 
 ---
