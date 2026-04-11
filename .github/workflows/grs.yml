@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v4
+        uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
           options: username=arnab500th&show_icons=true&theme=tokyonight
@@ -20,7 +20,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate top langs card
-        uses: readme-tools/github-readme-stats-action@v4
+        uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
           options: username=arnab500th&layout=compact&theme=tokyonight
