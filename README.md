@@ -92,18 +92,6 @@ Real-time AI surveillance pipeline — YOLOv8 + ByteTrack + 5-state machine + Ha
 ---
 
 <details>
-<summary>⏱️ WakaTime Coding Activity</summary>
-<br>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=arnab500th&theme=tokyo-night&layout=compact&langs_count=8" alt="WakaTime stats" />
-</p>
-
-</details>
-
----
-
-<details>
 <summary>📊 GitHub Stats</summary>
 <br>
 
